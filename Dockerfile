@@ -44,6 +44,7 @@ RUN apt install php7.4-fpm -y
 
 # nginxインストール
 RUN apt install nginx -y
+RUN cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
 # 設定ファイルをコピー
 COPY default /etc/nginx/sites-available/

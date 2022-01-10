@@ -14,10 +14,10 @@ Laravel(php artisan --version): latest
 Nginx: latest  
 
 # Image Building
-docker build ./ -t ubuntu_laravel:latest  
+    docker build ./ -t ubuntu_laravel:latest  
 
 # Docker Run
-docker run -it --name ubuntu_laravel -p 80:80 ubuntu_laravel:latest  
-  
-    If /opt/html is empty then create Laravel project in /opt/html  
-    See docker-entrypoint.sh for details  
+If /opt/html is empty then create Laravel project in /opt/html  
+See docker-entrypoint.sh for details  
+
+    docker run -it --name ubuntu_laravel -p 80:80 ubuntu_laravel:latest  
