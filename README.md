@@ -2,7 +2,7 @@
 Laravel on Ubuntu Docker Container !  
 
 DockerHub  
-https://hub.docker.com/repository/docker/thideki/ubuntu_laravel
+https://hub.docker.com/r/thideki/ubuntu_laravel
 
 # Environment  
 Ubuntu: latest  
